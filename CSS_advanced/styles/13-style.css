@@ -42,14 +42,14 @@ a[href] {
 }
 
 a[href]:visited {
-  font-style: italic;
+    font-style: italic;
 }
 
 a[href]:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
   background-color: var(--color-light-grey);
 }
 
